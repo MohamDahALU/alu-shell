@@ -1,2 +1,1 @@
-This is a repo for project 5 in alu
-CHANGED
+This is a readme file in alu shell repo
