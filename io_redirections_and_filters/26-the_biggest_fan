@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq -w 15 | uniq -c | cut -f 1
+cut -f 1 | sort | uniq -w 15 -c
