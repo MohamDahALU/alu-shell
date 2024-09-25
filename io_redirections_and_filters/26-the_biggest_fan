@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq -w 15 -c | cut -f 2
+uniq -w 15 -c | cut -f 1
