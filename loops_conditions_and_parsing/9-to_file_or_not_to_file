@@ -3,14 +3,14 @@
 # and type of a file named "school". It uses conditional statements (if and else) to
 # provide appropriate output based on the file's attributes.
 
-if [ -e empty ]; then
+if [ -e school ]; then
     echo "school file exists"
-    if [ -s empty ]; then
+    if [ -s school ]; then
         echo "school file is not empty"
     else
         echo "school file is empty"
     fi
-    if [ -f empty ]; then
+    if [ -f school ]; then
         echo "school is a regular file"
     fi
 else
