@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script uses a for loop to print the sting "Best School" 10 times
+# this script uses a until loop to print 
 i=0
 until [ $i == 10 ]
 do

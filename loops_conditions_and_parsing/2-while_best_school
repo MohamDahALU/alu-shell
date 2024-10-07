@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# This script uses a for loop to print the sting "Best School" 10 times
+# this script uses a while loop to print 
 i=1
 while ((i <= 10)); do
     echo "Best School"
