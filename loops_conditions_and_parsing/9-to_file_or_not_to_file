@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # This Bash script effectively checks for the existence, emptiness,
 # and type of a file named "school". It uses conditional statements (if and else) to
 # provide appropriate output based on the file's attributes.
