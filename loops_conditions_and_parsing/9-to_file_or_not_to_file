@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+# This Bash script effectively checks for the existence, emptiness,
+# and type of a file named "school". It uses conditional statements (if and else) to
+# provide appropriate output based on the file's attributes.
+
+if [ -e empty ]; then
+    echo "school file exists"
+    if [ -s empty ]; then
+        echo "school file is not empty"
+    else
+        echo "school file is empty"
+    fi
+    if [ -f empty ]; then
+        echo "school is a regular file"
+    fi
+else
+    echo "school file does not exist"
+fi
