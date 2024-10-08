@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# A Bash script that displays To infinity and beyond indefinitely.
+# A Bash script that displays To infinity and beyond indefinitely, intercepting SIGTERM signals
 _invincible() {
     echo "I am invincible!!!"
 }

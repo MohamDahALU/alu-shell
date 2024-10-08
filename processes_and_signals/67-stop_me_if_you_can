@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# A Bash script that stops 4-to_infinity_and_beyond process without using kill or killall
+# A Bash script that stops 7-highlander
 pid=$(ps -aux | grep ./7-highlander | head -n 1 | awk '{print $2}')
 kill "$pid"
