@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A Bash script that stops 7-highlander FOR REAL
+pid=$(ps -aux | grep ./7-highlander | head -n 1 | awk '{print $2}')
+kill -KILL "$pid"
